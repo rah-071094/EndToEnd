@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="End to End Suite">
+
+  <test name="End to End test cases">
+    <classes>
+      <class name="com.E2E.qa.testcases.GoogleTest"/>
+    </classes>
+  </test>
+</suite>

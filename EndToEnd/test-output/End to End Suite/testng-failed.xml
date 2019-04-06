@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [End to End Suite]">
+  <test thread-count="5" name="End to End test cases(failed)">
+    <classes>
+      <class name="com.E2E.qa.testcases.GoogleTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="GoogleTitle"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.E2E.qa.testcases.GoogleTest -->
+    </classes>
+  </test> <!-- End to End test cases(failed) -->
+</suite> <!-- Failed suite [End to End Suite] -->
