@@ -19,6 +19,7 @@ public class GoogleTest extends TestBase
 	 @Test
 	  public void GoogleSearch()
 	  {
+		 System.out.println("xyz");
 		driver.findElement(By.xpath("//input[@class='gLFyf gsfi']")).sendKeys("Java");
 			
 			List <WebElement> searchlist = driver.findElements(By.xpath("//ul[@class='erkvQe']//li/descendant::div[@class='sbtc']"));
